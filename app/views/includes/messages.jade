@@ -1,0 +1,24 @@
+aside.notifications
+  - if (typeof info != 'undefined' && info.length)
+    - each inf in info
+      section.fade.in.notification.notification-info= inf
+        a.close(href='#')
+          span.hidden
+
+  - if (typeof errors != 'undefined' && errors.length)
+    - each error in errors
+      section.fade.in.notification.notification-error= error
+        a.close(href='#')
+          span.hidden
+
+  - if (typeof success != 'undefined' && success.length)
+    - each succ in success
+      section.fade.in.notification.notification-success= succ
+        a.close(href='#')
+          span.hidden
+
+  - if (typeof warning != 'undefined' && warning.length)
+    - each warn in warning
+      section.fade.in.notification.notification-warn= warn
+        a.close(href='#')
+          span.hidden

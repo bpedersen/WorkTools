@@ -1,0 +1,23 @@
+{
+  "name": "Greystone-Work-Tools",
+  "version": "0.0.0",
+  "description": "Internal Worktools for Greystone Technology Group",
+  "main": "index.js",
+  "dependencies": {
+    "express": "~4.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PiereDome/WorkTools.git"
+  },
+  "author": "Brian Hingeberg Pedersen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PiereDome/WorkTools/issues"
+  },
+  "homepage": "https://github.com/PiereDome/WorkTools"
+}
